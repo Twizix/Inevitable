@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{96662ff2-e5c4-420f-a2c6-36daebda7faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{51f195ee-8a1d-4f1d-9b8c-e5317540af5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\character.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLMODEL.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Controller.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundHandle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GLMODEL.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Animation.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundHandle.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
